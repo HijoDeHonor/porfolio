@@ -1,6 +1,5 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 import React from "./icons/React.astro"
@@ -47,8 +46,25 @@ const PROJECTS = [
     github: "https://github.com/HijoDeHonor/game-store-be",
     image: "/back.png",
     tags: [TAGS.NODE, TAGS.EXPRESS, TAGS.MYSQL],
+  },
+  {
+    title: "distopicWorkout",
+    description:
+      "Participacion en proyecto con implementacion de ia para la generacion de rutinas de entrenamiento.",
+    github: "https://github.com/PiewDev/ia-workout-fe",
+    image: "/distopickWorkoutFront.png",
+    tags: [TAGS.REACT],
+  },
+  {
+    title: "distopicWorkout - BackEnd",
+    description:
+      "Participacion en API rest para gestionar el envio del formulario, recepcion de respuestas. Coneccion con ia mediante generacion de promt, y reestructuracion de respuesta. ",
+    github: "https://github.com/PiewDev/ia-workout-be",
+    image: "/distopickWorkoutBack.png",
+    tags: [TAGS.NODE, TAGS.EXPRESS],
   }
 ]
+
 ---
 
 <div class="flex flex-col gap-y-16">
